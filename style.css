@@ -1,0 +1,82 @@
+#counterbtns{
+    width: 25px;
+}
+#pic {
+    width: 40px;
+}
+#count {
+    position: absolute;
+    margin-top: 25px;
+    right: 15px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    font-size: 1rem;
+    color: antiquewhite;
+    width: 26px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    font-size: 2em;
+}
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns with equal width */
+    border: 3px solid orange;
+}
+.griditem {
+    width: 100%;
+    border: 2px solid blue;
+    padding: 10px; /* Add padding for better visibility */
+}
+.cont{
+    position: absolute;
+}
+.hide{
+    display: none;
+}
+#btncart{
+    border: none;
+}
+video{
+    left: 0;
+    top: 0;
+    position: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+#cardview{
+    position: absolute;
+    height: 100%;
+    opacity: 1;
+    background-color: black;
+    top: 0;
+    right: 0;
+    
+    width: 30%;
+}
+.cardContents{
+    display: grid;
+    grid-template-columns: 1fr;
+    color :red;
+    font-size: 1em;
+    font-family: cursive;
+    margin-top: 30px;
+    text-align: center;
+    justify-content:space-between;
+    gap: 10px;
+
+}
+#Citem{
+    border: 2px solid white;
+
+}
+#picture{
+    height: 250px;
+}
